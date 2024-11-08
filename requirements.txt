@@ -1,3 +1,10 @@
 vosk>=0.3.45
-websockets>=11.0
+#websockets>=11.0
+jsonschema>=4.0.0         # Nécessaire pour la manipulation et la validation des données JSON
+asyncio>=3.4.3            # Gestion des opérations asynchrones
+websockets>=10.0          # Pour gérer les connexions WebSocket
+sounddevice>=0.4.4        # Pour la capture audio
+argparse>=1.4.0           # Gestion des arguments de la ligne de commande
+requests>=2.26.0          # Pour envoyer des requêtes HTTP
+
 
